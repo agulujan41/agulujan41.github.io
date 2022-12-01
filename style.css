@@ -224,9 +224,27 @@ body{
 
 }
 @media screen  and (max-width: 1000px){
+    .header_menu{
+        position: relative;
+    }
     .nav_menu {
-        display:none;
-    } 
+        padding-right: 25%;
+        position: absolute;
+        width:min-content;
+        background-color: var(--fontColorMenu);
+        right: 0px;
+        top: 100%;
+        z-index: 1;
+        
+    }
+    
+    .ul_menu{
+        flex-direction: column;
+    }
+    .ul_menu a{
+        font-size: 1.9em;
+    }
+    
     .menu_logo{
         margin-top: auto;
         margin-bottom: auto;
@@ -262,9 +280,7 @@ body{
     .carrusel{
         width: 100%;
     }
-    .nav_menu{
-        display: none;
-    }
+
     .header_menu{
         height: 95px;
     }
