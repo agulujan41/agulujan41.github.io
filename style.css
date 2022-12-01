@@ -228,6 +228,9 @@ body{
     }
 
 }
+.classCloseMenu{
+    display: none;
+}
 .classOpenMenu{
     display:block;
     padding-top: 100px;

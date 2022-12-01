@@ -10,7 +10,7 @@ menuButton.onclick=function(){
     
     if(nav_menu.classList[0]=="classOpenMenu"){
         nav_menu.classList.remove(nav_menu.classList.item(0));
-        nav_menu.style.display="none";
+        nav_menu.classList.add("classCloseMenu");
         console.log("tamanio: "+nav_menu.classList.length);
         console.log("1");
         
