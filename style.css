@@ -218,6 +218,8 @@ body{
     }
 
 }
+
+
 @media screen  and (max-width: 1150px){
    
     .info p{
@@ -226,12 +228,24 @@ body{
     }
 
 }
+.classOpenMenu{
+    display:block;
+    padding-top: 100px;
+    padding-right: 25%;
+    position: absolute;
+    width:min-content;
+    background-color: var(--fontColorMenu);
+    right: 0px;
+    top: 0px;
+    z-index: 60;
+}
 @media screen  and (max-width: 1000px){
     .header_menu{
         position: fixed;
         z-index: 60;
     }
     .nav_menu {
+        display: none;
         padding-top: 100px;
         padding-right: 25%;
         position: absolute;
