@@ -221,7 +221,17 @@ body{
 
 
 @media screen  and (max-width: 1150px){
-   
+    .nav_menu{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        
+    }
+    .nav_menu a{
+        font-size: 1.6em;
+    }
     .info p{
         font-size: 0.9em ;
 

@@ -11,17 +11,23 @@ menuButton.onclick=function(){
     if(nav_menu.classList[0]=="classOpenMenu"){
         nav_menu.classList.remove(nav_menu.classList.item(0));
         nav_menu.classList.add("classCloseMenu");
-        console.log("tamanio: "+nav_menu.classList.length);
-        console.log("1");
+    
         
     }else{
             nav_menu.classList.remove(nav_menu.classList.item(0));
             nav_menu.classList.add("classOpenMenu");
-            console.log("tamanio: "+nav_menu.classList.length);
-            console.log("2");
+
         
     }
     
    
   
 }
+window.addEventListener('resize', function(event) {
+    
+    if(window.innerWidth>1000){
+        let nav_menu=document.getElementById("nav_menu");
+        nav_menu.classList.remove(nav_menu.classList.item(0));
+        nav_menu.classList.add("nav_menu");
+    }
+}, true);
