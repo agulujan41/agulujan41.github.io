@@ -115,8 +115,14 @@ body{
     color: var(--fontColorMenuHover);
 }
 .carrusel{
-    width: 65%;
+    width: 100%;
     user-select: none;
+}
+.carrusel img{
+    object-fit: cover;
+    top:0;
+    left:0;
+    max-height:85vh;
 }
 .info{
     user-select: none;
@@ -191,10 +197,17 @@ body{
 @media screen  and (max-width: 1300px){
     .nav_menu a{
         font-size: 1.6em;
-    }  
-    .carrusel{
+    }
+    .carrusel {
         width: 100%;
     }
+    .carrusel img{
+        object-fit: cover;
+        top:0;
+        left:0;
+        min-height:85vh;
+    }
+   
     
     .info p{
         margin-left: 5%;
@@ -240,7 +253,10 @@ body{
    } 
    .info{
     height: 230px;        
-}
+    }
+    .menu_logo{
+        height: 20%;
+    }
 }
 @media screen and (max-width: 600px){
     .carrusel{
