@@ -1,0 +1,63 @@
+.principal{
+    flex-direction: column;
+    height: 90vh;
+}
+h3{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.recientes{
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    user-select: none;
+    flex-direction: column;
+    overflow: auto;
+}
+.simplePredica{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    height: min-content;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.simplePredica audio{
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.details_uno{
+    display: flex;
+    flex-direction: row;
+}
+.details_uno h1{
+    font-size: 1.2em;
+    width: 70px;
+    text-decoration: underline;
+}
+.details_uno h2{
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+@media screen  and (max-width: 800px){
+    .simplePredica{
+        flex-direction: column;
+        
+    }
+    .details{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
