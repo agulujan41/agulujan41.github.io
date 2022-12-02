@@ -133,7 +133,6 @@ body{
 }
 .info{
     user-select: none;
-    height:200px;
     background: var(--white);
 
 }
@@ -308,9 +307,7 @@ body{
         font-size: 1.1em;
         margin-top: -12px;
    } 
-   .info{
-    height: 230px;        
-    }
+   
     .menu_logo{
         height: 20%;
     }
@@ -328,9 +325,7 @@ body{
     .div_name h1{
         font-size: 1.2em;
     }
-   .info{
-        height: 240px;        
-    }
+  
     .info h1{
         font-size: 1.4em;
     }
@@ -344,12 +339,8 @@ body{
    }
 }
 @media screen and (max-width: 450px){
-    .info{
-        height: 260px;        
-    }
+   
 }
 @media screen and (max-width: 400px){
-    .info{
-        height: 280px;        
-    }
+    
 }
