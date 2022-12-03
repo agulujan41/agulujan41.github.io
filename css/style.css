@@ -254,12 +254,14 @@ body{
     right: 0px;
     top: 0px;
     z-index: 60;
-    overflow: auto;
+    
 }
+
 @media screen  and (max-width: 1000px){
     .header_menu{
         position: fixed;
         z-index: 60;
+       
     }
     .nav_menu {
         display: none;
@@ -350,4 +352,15 @@ body{
 }
 @media screen and (max-width: 400px){
     
+}
+@media screen and (max-height:450px) {
+    .ul_menu{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .ul_menu li{
+        border-bottom: none;
+        border-right: 1px solid white;
+    }
 }
