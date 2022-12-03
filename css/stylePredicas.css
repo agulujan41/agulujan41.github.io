@@ -50,7 +50,56 @@ h3{
     font-size: 1.2em;
     margin-left: 10px;
 }
+.buscaPredica{
+    background-color: rgb(227, 227, 227);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    user-select: none;
+    border: 1px solid black;
+}
+.buscaPredica h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin-left: 20px;
+    text-decoration: underline;
 
+}
+.buscaControls{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.filtra_uno{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px;
+}
+.filtra_uno h2{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+.btnFiltrar{
+    height: min-content;
+    font-size: 1.6em;
+    font: bold;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: burlywood;
+}
+.buscaResultados{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: azure;
+    height: 300px;
+}
+.buscaResultados h4{
+    
+    margin-left: 10px;
+}
 @media screen  and (max-width: 800px){
     .simplePredica{
         flex-direction: column;
@@ -59,5 +108,20 @@ h3{
     .details{
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+@media screen and (max-width:1000px){
+    .buscaControls{
+        width: 100%;
+        flex-direction: column;
+        
+    }   
+    .filtra_uno{
+        width: 100%;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .filtra_uno h2{
+        width: 90px;
     }
 }

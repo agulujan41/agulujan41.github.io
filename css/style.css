@@ -135,7 +135,7 @@ body{
 .info{
     user-select: none;
     background: var(--white);
-
+    border: 1px solid black;
 }
 .info h1{
     font-size: 1.9em;
@@ -362,5 +362,8 @@ body{
     .ul_menu li{
         border-bottom: none;
         border-right: 1px solid white;
+    }
+    .ul_menu a{
+        text-align: center;
     }
 }
