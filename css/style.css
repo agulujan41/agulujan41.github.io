@@ -254,6 +254,7 @@ body{
     right: 0px;
     top: 0px;
     z-index: 60;
+    overflow: auto;
 }
 @media screen  and (max-width: 1000px){
     .header_menu{
@@ -269,7 +270,7 @@ body{
         right: 0px;
         top: 0px;
         z-index: 60;
-        
+        overflow: auto;
     }
     
     .ul_menu{
