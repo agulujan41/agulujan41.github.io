@@ -72,6 +72,7 @@ body{
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    z-index: 70;
    
 }
 .logo:hover{
@@ -247,9 +248,8 @@ body{
 .classOpenMenu{
     display:block;
     padding-top: 100px;
-    padding-right: 25%;
     position: absolute;
-    width:min-content;
+    width:100%;
     background-color: var(--fontColorMenu);
     right: 0px;
     top: 0px;

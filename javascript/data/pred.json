@@ -1,0 +1,10 @@
+{
+    "predicas":[
+        {
+            "idPredica":1,
+            "idBy":1,
+            "dia":"Tarde"
+
+        }
+    ]
+}
