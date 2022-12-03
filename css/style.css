@@ -263,13 +263,12 @@ body{
     .nav_menu {
         display: none;
         padding-top: 100px;
-        padding-right: 25%;
         position: absolute;
-        width:min-content;
+        width:100%;
         background-color: var(--fontColorMenu);
         right: 0px;
         top: 0px;
-        z-index: 1;
+        z-index: 60;
         
     }
     
@@ -279,9 +278,16 @@ body{
     }
     .ul_menu a{
         
+        width: 100%;
         font-size: 1.9em;
     }
-    
+    .ul_menu li{
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
     .menu_logo{
         margin-top: auto;
         margin-bottom: auto;
