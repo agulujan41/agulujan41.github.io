@@ -38,10 +38,34 @@ for(let i=0;i<ul_menu.children.length;i++){
     li.addEventListener("mouseover",function(event){
         if(window.innerWidth<=1000){
             
+            while(this.classList.length!=0){
+                this.classList.remove(this.classList.item(this.classList.length-1));
+            }
+            this.classList.add("ul_custom_style");
+           
+            var a=this.children[0];
+            while(a.classList.length!=0){
+                a.classList.remove(a.classList.item(a.classList.length-1));
+            }
+            a.classList.add("a_custom_style");
+
         }
     });
     li.addEventListener("mouseout",function(event){
-        console.log("here");
+        if(window.innerWidth<=1000){
+            while(this.classList.length!=0){
+                this.classList.remove(this.classList.item(this.classList.length-1));
+            }
+            this.classList.add("ul_custom_style_out");
+    
+            var a=this.children[0];
+            while(a.classList.length!=0){
+                a.classList.remove(a.classList.item(a.classList.length-1));
+            }
+            a.classList.add("a_custom_style_out");
+        
+        }
+       
     });
     li.onclick=function(){
         if(window.innerWidth<=1000){

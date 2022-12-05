@@ -260,6 +260,18 @@ body{
     background-color: var(--white);
     cursor: pointer;
 }
+.ul_custom_style_out{
+    background-color: var(--fontColorMenu);
+}
+.a_custom_style{
+    width: 100%;
+    font-size: 1.9em;
+    color: var(--fontColorMenu);
+}
+.a_custom_style_out{
+    font-size: 1.9em;
+    color: var(--fontColorMenuHover);
+}
 @media screen  and (max-width: 1000px){
     .header_menu{
         position: fixed;
