@@ -256,7 +256,10 @@ body{
     z-index: 60;
     
 }
-
+.ul_custom_style{
+    background-color: var(--white);
+    cursor: pointer;
+}
 @media screen  and (max-width: 1000px){
     .header_menu{
         position: fixed;
@@ -280,7 +283,6 @@ body{
         
     }
     .ul_menu a{
-        
         width: 100%;
         font-size: 1.9em;
     }
@@ -291,6 +293,7 @@ body{
         width: 100%;
         border-bottom: 1px solid white;
     }
+   
     .menu_logo{
         margin-top: auto;
         margin-bottom: auto;

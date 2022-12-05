@@ -31,3 +31,22 @@ window.addEventListener('resize', function(event) {
         nav_menu.classList.add("nav_menu");
     }
 }, true);
+
+var ul_menu=document.getElementsByClassName("ul_menu")[0];
+for(let i=0;i<ul_menu.children.length;i++){
+    var li=ul_menu.children[i];
+    li.addEventListener("mouseover",function(event){
+        if(window.innerWidth<=1000){
+            
+        }
+    });
+    li.addEventListener("mouseout",function(event){
+        console.log("here");
+    });
+    li.onclick=function(){
+        if(window.innerWidth<=1000){
+            this.children[0].click();
+        }
+        
+    }
+}
