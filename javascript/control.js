@@ -5,7 +5,7 @@ logoButton.onclick=function (){
     
 }
 var menuButton=document.getElementById("menuButton");
-menuButton.onclick=function(){
+menuButton.onclick=function abrirCerrar(){
     let nav_menu=document.getElementById("nav_menu");
     
     if(nav_menu.classList[0]=="classOpenMenu"){
@@ -70,6 +70,7 @@ for(let i=0;i<ul_menu.children.length;i++){
     li.onclick=function(){
         if(window.innerWidth<=1000){
             this.children[0].click();
+            
         }
         
     }
